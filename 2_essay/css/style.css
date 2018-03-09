@@ -1,0 +1,27 @@
+body{
+  background-color: peachpuff;
+  width: 880px;
+  margin:auto;
+  margin-top: 200px;
+  font-family: arial;
+}
+
+p{
+  font-family: Times;
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+  border: 2px pink;
+  background-color: orange;
+  font-size: 60px;
+  margin: 40px;
+  padding: 88px;
+
+}
+
+h2{
+  font-family: Times;
+  text-transform: uppercase;
+  text-align: center;
+}

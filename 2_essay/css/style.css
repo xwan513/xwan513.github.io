@@ -1,5 +1,5 @@
 body{
-  background-color: cornsilk;
+  background-color: lightpink;
   width: 840px;
   margin:auto;
   margin-top: 200px;
@@ -13,7 +13,7 @@ p{
 h1{
   text-align: center;
   border: 2px pink;
-  background-color: coral;
+  background-color: palevioletred;
   font-size: 60px;
   margin: 40px;
   padding: 88px;

@@ -1,6 +1,6 @@
 body{
   background-color: peachpuff;
-  width: 880px;
+  width: 840px;
   margin:auto;
   margin-top: 200px;
   font-family: arial;
@@ -24,4 +24,19 @@ h2{
   font-family: Times;
   text-transform: uppercase;
   text-align: center;
+}
+
+h3{
+  font-family: arial;
+  font-size:18px;
+}
+
+h4{
+  font-family: arial;
+  font-size:18px;
+}
+
+h5{
+  font-family: arial;
+  font-size:18px;
 }

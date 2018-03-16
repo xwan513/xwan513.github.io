@@ -5,8 +5,12 @@ body{
   margin-top: 200px;
   font-family: arial;
 }
-H1{font-size: 40PX;
+H1{font-size: 60PX;
   font-family: sans-serif;
+}
+h2{font-size: 40px;
+  font-family: sans-serif;
+
 }
 p{
 

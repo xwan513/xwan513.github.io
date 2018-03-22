@@ -1,11 +1,27 @@
 body{
-  background-color:lightpink;
+  background-color:cornsilk;
   width: 840px;
   margin:auto;
   margin-top: 200px;
   font-family: arial;
+
 }
 
+
 p{
+
+}
+h1{ text-family:Times;
+  border: 2px cornsilk;
+  font-size: 70px;
+  color:Orange;
+  text-shadow: 2px 2px 5px red;
+}
+h2{  font-family: Times;
+  font-size:28px;
+
+}
+h3{font-family: Times;
+  font-size: 25px;
 
 }

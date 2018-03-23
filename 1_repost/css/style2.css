@@ -1,6 +1,6 @@
 body{
   background-color:cornsilk;
-  width: 840px;
+  width: 800px;
   margin:auto;
   margin-top: 200px;
   font-family: arial;
@@ -18,30 +18,35 @@ h1{ text-family:Times;
   text-shadow: 2px 2px 5px red;
 }
 h2{  font-family: Times;
-  font-size:28px;
+  font-size:35px;
+
 
 }
 h3{font-family: Times;
-  font-size: 25px;
+  font-size: 23px;
+
 
 }
 
 h4{ font-family: Times;
-  font-size:20px;
-  border: 2.5px pink;
+  font-size:24px;
+  border: 1px pink;
   background-color: coral;
+  width:730px;
 }
 
 h5{ font-family: Times;
-  font-size:20px;
-   border: 2.5px pink;
+  font-size:24px;
+   border: 1px pink;
   background-color: coral;
+  width:730px;
 
 }
 
 h6{  font-family: Times;
-  font-size:20px;
-  border: 2.5px pink;
+  font-size:24px;
+  border: 1px pink;
   background-color: coral;
+  width:730px;
 
 }

@@ -24,19 +24,28 @@ h2{
   font-family: Times;
   text-transform: uppercase;
   text-align: center;
+  border: 2px pink;
+  background-color: coral;
+  text-align: center;
 }
 
 h3{
   font-family: arial;
   font-size:18px;
+  border: 2px pink;
+  background-color: coral;
 }
 
 h4{
   font-family: arial;
   font-size:18px;
+  border: 2px pink;
+  background-color: coral;
 }
 
 h5{
   font-family: arial;
+  border: 2px pink;
+  background-color: coral;
   font-size:18px;
 }

@@ -1,0 +1,54 @@
+body {
+background-color: red;
+}
+
+
+.main img{
+  max-width: 100%;
+  padding: 18px;
+}
+
+.menu{
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  z-index: 2;
+  padding: 10px;
+  
+}
+
+.nav{
+  width:0;
+  font-size: 30px;
+  height:100vh;
+  position: fixed;
+  left:0px;
+  top:0px;
+  background-color: yellow;
+  overflow: hidden;
+  transition: 1s;
+}
+
+
+
+.nav.active{
+width: 25%;
+transition: 1s;
+}
+
+
+.button{
+  display: block;
+border-bottom: 1px solid black;
+padding:10px;
+font-family: arial;
+font-size: 20px;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display:none;
+}

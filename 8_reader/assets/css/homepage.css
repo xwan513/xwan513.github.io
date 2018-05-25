@@ -1,0 +1,137 @@
+body{
+background-color:	#9400D3;
+
+margin:auto;
+margin-top: 0px;
+font-family: arial;
+
+font-family:  arial, helvetica, sans-serif;
+
+box-sizing: border-box;
+}
+
+
+.nav {
+  list-style-type:none;
+  display:flex;
+
+  width:1680px;
+
+}
+.navItem, .navItem a {
+  display:inline-block;
+  flex-grow: 1;
+}
+.navItem a {
+  width:100%;
+  padding-top:30px;
+  padding-bottom:30px;
+  color:yellow;
+  text-decoration:none;
+  text-align:center;
+  text-shadow: 1px 1px 2px rgba(34,34,34,0.4);
+  font-weight:600;
+  font-size:20px;
+}
+.navItem:nth-of-type(1) {
+  border-bottom:2px solid #D60F3A;
+}
+.navItem:nth-of-type(1) a:hover {
+  background:#D60F3A;
+}
+.navItem:nth-of-type(2) {
+  border-bottom:2px solid #8317AD;
+}
+.navItem:nth-of-type(2) a:hover {
+  background:#8317AD;
+}
+.navItem:nth-of-type(3) {
+  border-bottom:2px solid #3116DE;
+}
+.navItem:nth-of-type(3) a:hover {
+  background:#3116DE;
+}
+.navItem:nth-of-type(4) {
+  border-bottom:2px solid #0E8FC2;
+}
+.navItem:nth-of-type(4) a:hover {
+  background:#0E8FC2;
+}
+.navItem:nth-of-type(5) {
+  border-bottom:2px solid #0EC23E;
+}
+.navItem:nth-of-type(5) a:hover {
+  background:#0EC23E;
+}
+.navItem:nth-of-type(6) {
+  border-bottom:2px solid #CFCF13;
+}
+.navItem:nth-of-type(6) a:hover {
+  background:#CFCF13;
+}
+
+
+
+img{
+  margin-left: 1px;
+  position: absolute;
+ top: 900px;
+ right: 0;
+ left:1000px;
+ width: 800px;
+
+}
+
+
+
+h1{
+  text-align: center;
+  border: 2px pink;
+  font-size: 100px;
+  margin: 10px;
+  padding: 1px;
+margin-top: 100px;
+
+
+}
+
+h2{
+  text-align: center;
+  border: 2px pink;
+  font-size: 100px;
+  margin: 10px;
+  padding: 1px;
+margin-top: 100px;
+
+}
+
+h3{  text-align: center;
+
+  font-size: 100px;
+  margin: 10px;
+  padding: 1px;
+margin-top: 100px;
+
+}
+p{
+  text-align:center;
+  
+
+
+}
+
+a{
+border: 20px white;
+font-size:100px;
+    color:Yellow;
+    font-family: sans-serif;
+    text-align: left;
+
+
+}
+
+
+
+* {
+  cursor: url('../image/hand2.png'), auto;
+}

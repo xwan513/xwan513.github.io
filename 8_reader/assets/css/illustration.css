@@ -1,0 +1,96 @@
+body {
+  color: blue;
+  font-size:30px;
+	font-family: times;
+}
+
+.panel {
+	height:100vh;
+display:block;
+  overflow: scroll;
+  top:0;
+width:50%;
+
+}
+
+.left {
+	background-color:orange;
+color:mediumblue;
+
+top:0;
+left:0;
+
+width: 50%;
+position: absolute;
+left: 0px;
+height: 100%;
+
+}
+
+.right {
+	background-color: mediumblue;
+	position:fixed;
+	right:0;
+	top:0;
+	text-align: left
+	zoom: 1;
+	color:orange;
+
+}
+
+.text {
+  padding:20px;
+}
+
+.tac {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-style: bold;
+
+
+}
+h1{
+	font-size: 32px;
+  text-align: center;
+
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+
+}
+h3{
+	font-size: 25px;
+	text-align: center;
+
+}
+.cut{
+	width:400px;
+	float:none;
+
+}
+* {
+  cursor: url('../image/hand2.png'), auto;
+}
+
+.part2{
+	text-align: left;
+}
+
+h4{
+	font-size: 35px;
+	text-align: center;
+
+}
+.image{
+  color:Red;
+}
+
+.show{
+display:none;
+}
+
+span:hover + img{
+   display: block;

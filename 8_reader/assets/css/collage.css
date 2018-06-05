@@ -1,10 +1,123 @@
-body{
-background-color:	#9400D3;
-width: 840px;
-margin:auto;
-margin-top: 0px;
-font-family: arial;
-border: 2px black;
-font-family: futura, gotham, arial, helvetica, sans-serif;
-font-size: 200px;
+body {
+font-family: TIMES;
+  font-size:30px;
+
 }
+
+.panel {
+  height:100vh;
+display:block;
+  overflow: scroll;
+  top:0;
+width:50%;
+
+
+}
+
+
+.left {
+    background-color:white;
+color:mediumblue;
+
+  top:0;
+  left:0;
+
+ width: 50%;
+ position: absolute;
+ left: 0px;
+ height: 100%;
+
+}
+
+.right {
+  background-color: mediumblue;
+  position:fixed;
+  right:0;
+  top:0;
+text-align: left
+  zoom: 1;
+color:white;
+
+
+}
+
+.text {
+  padding:20px;
+}
+
+.tac {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-style: bold;
+
+}
+.figure{
+  position:absolute;
+  right:0;
+  top:0;
+  width:500px;
+  height:800px;
+
+}
+.f1{
+    position:absolute;
+      right:5;
+    top:3320px;
+    width:400px;
+    height:400px;
+}
+.f2{
+  position:absolute;
+    right:5;
+    top:520px;
+    width:400px;
+    height:400px;
+}
+.f3{
+  position:absolute;
+    right:8;
+    top:1020px;
+
+}
+
+.f4{  position:absolute;
+    right:10;
+    top:1720px;
+    width:400px;
+    height:700px;
+
+}
+.f5{
+  position:absolute;
+    right:5;
+    top:2520px;
+    width:700px;
+    height:700px;
+}
+
+h1{
+  font-size: 20px;
+  text-align: center;
+
+}
+
+* {
+  cursor: url('../image/hand2.png'), auto;
+}
+
+h2{
+  font-size: 20px;
+    text-align: center;
+}
+.image{
+  color:red;
+}
+
+.show{
+display:none;
+}
+
+span:hover + img{
+   display: block;

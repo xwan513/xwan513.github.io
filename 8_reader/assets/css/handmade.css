@@ -1,27 +1,55 @@
 body{
-background-color:	pink;
-width: 840px;
+background-color:white;
+width: 1500px;
 margin:auto;
 margin-top: 0px;
-font-family: arial;
+font-family: TIMES;
 border: 2px black;
+height:1200px;
+
 }
 
-* {
-  box-sizing: border-box;
+
+  * {
+    cursor: url('../image/hand2.png'), auto;
+  }
+
+
+
+
+.cloud{
+  height: 100%;
+  width: 100%;
+    position: absolute;
+    transition: .5s ease;
+    top:100;
+
+  left: 20;
+
 }
 
 
 
 
-p{
-  padding:3px;
+
+
+.text1{
+  color: black;
+font-size: 13px;
+position: absolute;
+top: 10%;
+right: 100%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: left;
+
 }
 
-.main {
-  width: 80%;
-  margin: auto;
-}
+
+
+
+
+
 
 .nav {
   position: fixed;
@@ -34,86 +62,88 @@ p{
 
 
 * {
-  cursor: url('../image/hand2.png'), auto;
-}
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: ;
+  cursor: url('../image/hand2.png') 25 -35, auto;
 }
 
 
 
 
+
+p{
+  font-family: TIMES;
+}
 
 h1{
   text-align: center;
   border: 2px pink;
   font-size: 80px;
   margin: 10px;
-  padding: 40px;
+  padding: 0px;
+  top:10px;
+  left:400px;
+  background-color: Gold;
+font-family: TIMES;
 
 }
 
 h2{
   text-align: center;
   font-size: 30px;
-
+font-family: TIMES;
 }
 
 h3{
   text-align: center;
   font-size: 15px;
+font-family: TIMES;
 
 }
 h4{
   text-align: center;
   font-size: 15px;
+font-family: TIMES;
+}
+
+h5{
+  text-align: center;
+  font-size: 15px;
+font-family: TIMES;
+}
+
+.background{
+  position: fixed;
+left:0;
+top: 0px;
+width: 1800px;
+height: 950px;
+z-index: 1;
+-webkit-transform-origin: center top 0px;
+-ms-transform-origin: center top 0px;
+transform-origin: center top 0px;
+pointer-events: none;
 
 }
 
 
-
 .container {
-font-size: 20px;
+font-size: 26px;
 font-family: arial;
     position: relative;
-    top:350px;
+    top:200px;
     left:20px;
-    width: 840px;
+    width: 1000px;
     margin: auto;
 
     margin-bottom: 50px;
 }
 
-.eye{
-
-  width:250px;
-  height:150px;
-  border-radius: 50%;
-  position:absolute;
-  bottom:1px;
-
-  top:10px;
-  right:300px;
+blockquote{
+  font-family: TIMES;
 }
 
 
-.c{
-  width:1700px;
-  height:1700px;
-  border-radius: 50%;
-  position:absolute;
-  bottom:1px;
-opacity: 1;
-  top:250px;
-  right:10px;
 
-}
+
 .girl{
   width:400px;
   height:600px;
@@ -122,18 +152,73 @@ opacity: 1;
   bottom:1px;
 
   top:0;
-  left:760px;
+  left:800px;
 }
 
-.girl2{
+
+
+.girl2-container{
   width:500px;
   height:700px;
   border-radius: 50%;
   position:absolute;
   bottom:1px;
 
-  top:700px;
+  top:400px;
   right:760px;
+}
+
+.girl2-image {
+  border-radius: 50%;
+}
+
+.girl3{
+    border-radius: 50%;
+    width:500px;
+    height:500px;
+
+    position: absolute;
+
+
+
+    left:800px;
+
+}
+.girl4{
+    border-radius: 50%;
+    width:550px;
+    height:500px;
+      position: absolute;
+      right:700px;
+}
+
+.girl2-bubble{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  transition: .5s ease;
+  height: 300px;
+  opacity: 0;
+  pointer-events: none;
+
+}
+.text2{
+  color: black;
+  background-color: yellow;
+font-size: 15px;
+position: absolute;
+top:-200px;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+font-family: TIMES;
+}
+
+.bubble-show {
+opacity: 1;
+transition: .5s ease;
 }
 
 .hand{
@@ -149,6 +234,8 @@ opacity: 1;
 
 .hand1{
     position:absolute;
+    left:-50px;
+    width:1000px;
 }
 
 
@@ -157,7 +244,7 @@ opacity: 1;
   margin:auto;
   margin-top: 300px;
   text-align:left;
-
+font-family: TIMES;
   color: black;
   font-size: 16px;
   padding: 16px 32px;
@@ -168,45 +255,30 @@ opacity: 1;
   width: 400px;
 }
 
-section {
-  width: 100%;
-  height: 300px;
-  background: lightpink;
-  box-sizing: border-box;
-  overflow: hidden;
+
+.pop {
+  width:200px;
+  height:200px;
   position: absolute;
-  margin: 0;
-  left:10px;
+  visibility: hidden;
 }
 
-.wrapper {
-  height:300px;
-  width: 50%;
-  background: lightpink;
-  overflow: hidden;
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-right: 2px solid yellow;
+.p-handmade {
+width:100%;
+   background-color: blue;
 }
 
-.sliding {
-  position: absolute;
-  top: 50%;
-  white-space: nowrap;
-  font-size: 12em;
-  line-height: 220px;
-  overflow: hidden;
-  font-family: "arial black";
-  animation: animate 20s linear infinite;
+.rollover {
+  color:red;
 }
 
-@keyframes animate {
-  0% {
-    transform: translate(0, -50%);
-  }
-  100% {
-    transform: translate(-50%, -50%);
-  }
+.p-show {
+  visibility: visible;
+}
+.hand{
+   display: none
+}
+
+span:hover + .hand{
+   display: block;
 }

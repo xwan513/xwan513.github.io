@@ -3,9 +3,12 @@ body{
   width: 840px;
   margin:auto;
   margin-top: 200px;
-  font-family: arial;
+
 }
 
+blockquote{
+  font-family: times;
+}
 p{
   font-family: Times;
   font-size: 20px;
@@ -30,21 +33,21 @@ h2{
 }
 
 h3{
-  font-family: arial;
+  font-family: times;
   font-size:18px;
   border: 2px pink;
   background-color: coral;
 }
 
 h4{
-  font-family: arial;
+  font-family:times;
   font-size:18px;
   border: 2px pink;
   background-color: coral;
 }
 
 h5{
-  font-family: arial;
+  font-family:times;
   border: 2px pink;
   background-color: coral;
   font-size:18px;
